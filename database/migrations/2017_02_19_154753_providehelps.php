@@ -20,6 +20,8 @@ class Providehelps extends Migration
             $table->string('reference');
             $table->string('currency_id');
             $table->integer('progress');
+            $table->integer('match');
+            $table->integer('match_with');
             $table->timestamps();
         });
     }

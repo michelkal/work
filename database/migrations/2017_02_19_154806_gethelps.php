@@ -20,6 +20,8 @@ class Gethelps extends Migration
             $table->string('amount');
             $table->string('currency_id');
             $table->string('growth');
+            $table->integer('match');
+            $table->integer('match_with');
             $table->timestamps();
         });
     }
