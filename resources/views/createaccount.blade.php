@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     <div class="panel">
                         <div class="panel-header">
                             <div class="alert alert-success alert-transparent">
@@ -101,179 +101,92 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12">
-                                    <div class="col-md-6">
                                         <div class="styled-input-wrapper">
                                             <div class="input-icon">
                                                 <i class="icon-user3"></i>
                                             </div>
                                             <div class="styled-input">
                                                 <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
+                                                    <label for="userName">Enter Full Name</label>
+                                                    <input type="text" class="form-control" id="userName" placeholder="Name" name="name">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
                                         <div class="styled-input-wrapper">
                                             <div class="input-icon">
-                                                <i class="icon-user3"></i>
+                                                <i class="icon-phone"></i>
                                             </div>
                                             <div class="styled-input">
                                                 <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
+                                                    <label for="userName">Phone Number</label>
+                                                    <input type="text" class="form-control" id="userName" placeholder="Phone" name="phone">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="col-md-6">
                                         <div class="styled-input-wrapper">
                                             <div class="input-icon">
-                                                <i class="icon-user3"></i>
+                                                <i class="icon-globe"></i>
                                             </div>
                                             <div class="styled-input">
                                                 <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
+                                                    <label for="userName">Country</label>
+                                                    <input type="text" class="form-control" id="userName" placeholder="Country" name="country">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="styled-input-wrapper">
-                                            <div class="input-icon">
-                                                <i class="icon-user3"></i>
-                                            </div>
-                                            <div class="styled-input">
-                                                <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="col-md-6">
-                                        <div class="icheckbox_square-green"><input tabindex="9" type="checkbox" id="square-checkbox-1" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                                    </div>
-                                    <div class="col-md-6">
                                         <div class="styled-input-wrapper">
                                             <div class="input-icon">
-                                                <i class="icon-user3"></i>
+                                                <i class="icon-envelope"></i>
                                             </div>
                                             <div class="styled-input">
                                                 <div class="form-group">
-                                                    <label for="userName">Enter Your Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="User Name">
+                                                    <label for="userName">Enter Email</label>
+                                                    <input type="text" class="form-control" id="userName" placeholder="Email" name="email">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                        <div class="styled-input-wrapper">
+                                            <div class="input-icon">
+                                                <i class="icon-unlock"></i>
+                                            </div>
+                                            <div class="styled-input">
+                                                <div class="form-group">
+                                                    <label for="userName">Password</label>
+                                                    <input type="password" class="form-control" id="userName" placeholder="************" name="password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="styled-input-wrapper">
+                                            <div class="input-icon">
+                                                <i class="icon-unlock"></i>
+                                            </div>
+                                            <div class="styled-input">
+                                                <div class="form-group">
+                                                    <label for="userName">Confirm Password</label>
+                                                    <input type="password" class="form-control" id="userName" placeholder="************" name="confirmPass">
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
+                            </div>
+                                        
+
+                        </div>
+                        <div class="row">
+                            <h2>&nbsp;</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                {!! Recaptcha::render() !!}
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <button class="btn btn-info btn-lg" type="submit" style="padding: 20px 16px;"><i class="icon-check_circle"></i>Create Account</buttom>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12">
+                <div class="col-md-4 col-xs-12">
                     
                 </div>
             </div>

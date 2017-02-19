@@ -11,8 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-	return view('welcome');
-});
+
 
 Route::get('/signup', 'UsersController@getUserRegister');
+Route::get('view-progress', 'UsersController@getProgressList');
+Route::get('/', function(){
+	return view('home');
+});
+
+Route::get('/login', function(){
+	return view('home');
+});
+
+Route::group(['prefix' => 'office', 'middleware' => 'auth'], function(){
+	Route::get('/', function () {
+		return view('welcome');
+	});
+});
