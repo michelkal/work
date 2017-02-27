@@ -17,9 +17,9 @@ class Gethelps extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->integer('ph_id');
-            $table->string('amount');
-            $table->string('currency_id');
-            $table->string('growth');
+            $table->string('amount', 100);
+            $table->string('currency_id', 50);
+            $table->string('growth', 50);
             $table->integer('match');
             $table->integer('match_with');
             $table->timestamps();

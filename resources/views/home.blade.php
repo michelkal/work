@@ -18,30 +18,23 @@
     <form action="index.html" id="wrapper">
         <div id="box" class="animated bounceIn">
             <div id="top_header"><img src="img/logo.png" class="logo" alt="Arise Admin Dashboard Logo">
-                <h5>Sign in to access to your<br>control panel.</h5></div>
-            <div id="inputs">
-                <div class="form-block">
-                    <input type="text" placeholder="Phone number"> <i class="icon-phone"></i>
+                <h5>Sign in to your account.</h5></div>
+                <div id="inputs">
+                    <div class="form-block">
+                        <input type="text" placeholder="Phone number"> <i class="icon-phone"></i>
+                    </div>
+                    <div class="form-block">
+                        <input type="password" placeholder="Password"> <i class="icon-eye4"></i>
+                    </div>
+                    <br>
+                    <div class="form-block">
+                        {!! Recaptcha::render() !!}
+                    </div>
+                    <br>
+                    <input type="submit" value="Sign In">
                 </div>
-                <div class="form-block">
-                    <input type="password" placeholder="Password"> <i class="icon-eye4"></i>
-                </div>
-                <br>
-                <div class="form-block">
-                    {!! Recaptcha::render() !!}
-                </div>
-                <br>
-                <input type="submit" value="Sign In">
             </div>
-            <div id="bottom" class="clearfix">
-                <div class="pull-right">
-                    <label class="switch pull-right">
-                        <input type="checkbox" class="switch-input" checked="checked"> <span class="switch-label" data-on="Yes" data-off="No"></span> <span class="switch-handle"></span></label>
-                </div>
-                <div class="pull-right"><span class="cb-label">Remember</span></div>
-            </div>
-        </div>
-    </form>
-</body>
+        </form>
+    </body>
 
-</html>
+    </html>

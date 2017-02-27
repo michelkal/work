@@ -16,9 +16,9 @@ class Usersaccounts extends Migration
         Schema::create('accounts', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->unique();
-            $table->string('account_name');
-            $table->bigint('account_number')->unique();
-            $table->string('bank_name');
+            $table->string('account_name', 100);
+            $table->integer('account_number')->unique();
+            $table->string('bank_name', 100);
             $table->timestamps();
         });
     }

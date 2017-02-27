@@ -17,6 +17,11 @@
     <link href="css/heatmap/cal-heatmap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/circliful/circliful.css">
     <link href="css/users.css" rel="stylesheet" media="screen">
+    
+    <link href="css/parsley.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/nprogress.css">
+    <link href="css/sweetalert.css" rel="stylesheet" media="screen">
+
     <link rel="stylesheet" href="css/odometer.css">
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
@@ -27,80 +32,44 @@
 <body>
     <header>
         <a href="index-2.html" class="logo"><img src="img/logo.png" alt="Arise Admin Dashboard Logo"></a>
-        <ul id="header-actions" class="clearfix">
-            <li class="list-box hidden-xs dropdown"><a id="drop2" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-warning2"></i> </a><span class="info-label blue-bg">5</span>
-                <ul class="dropdown-menu imp-notify">
-                    <li class="dropdown-header">You have 3 notifications</li>
-                    <li>
-                        <div class="icon"><img src="img/thumbs/user10.png" alt="Arise Admin"></div>
-                        <div class="details"><strong class="text-danger">Rogie King</strong> <span>Firefox is a free, open-source web browser from Mozilla.</span></div>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="list-box hidden-xs dropdown"><a id="drop3" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-archive2"></i> </a><span class="info-label red-bg">3</span>
-                <ul class="dropdown-menu progress-info">
-                    <li class="dropdown-header">You have 7 pending tasks</li>
-                    <li>
-                        <div class="progress-info"><strong class="text-warning">Urgent</strong> <span>Bug Fix #123</span> <span class="pull-right">60%</span></div>
-                        <div class="progress progress-xs no-margin">
-                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
-                        </div>
-                    </li>
-                    <li class="dropdown-footer">See all the tasks</li>
-                </ul>
-            </li>
-
-            <li class="list-box user-admin dropdown">
-                <div class="admin-details">
-                    <div class="name">Sean</div>
-                    <div class="designation">System Admin</div>
-                </div><a id="drop4" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-account_circle"></i></a>
-                <ul class="dropdown-menu sm">
-                    <li class="dropdown-content"><a href="profile.html">Edit Profile</a> <a href="forgot-pwd.html">Change Password</a> <a href="styled-inputs.html">Settings</a> <a href="login.html">Logout</a></li>
-                </ul>
-            </li>
-        </ul>
-
     </header>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><i class="icon-blur_on"></i>Dashboard</a></li>
-                    <li class=""><a href="#"><i class="icon-blur_on"></i>My Account</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div class="dashboard-wrapper">
         <div class="container-fluid">
-            <div class="top-bar clearfix">
-                <div class="row gutter">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="page-title">
-                            <h3>Platform Name</h3>
-                            <p>Welcome <strong>Username</strong></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    </div>
-                </div>
-            </div>
             <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="col-md-4 col-xs-12">
                     <div class="panel">
                         <div class="panel-header">
-                            <div class="alert alert-success alert-transparent">
-                                <i class="icon-user2"></i><strong>Create a free account to the community of helpers</strong>
+                            <div class="alert alert-success alert-danger">
+                                <h3><i class="icon icon-warning3" style="font-size: 3em;"></i> WARNING</h3>
                             </div>
                         </div>
                         <div class="panel-body">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12">
+                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                            
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <form action="#" method="post" id="signUpForm" data-parsley-validate>
+                        <div class="panel">
+                            <div class="panel-header">
+                                <div class="alert alert-success alert-transparent">
+                                    <i class="icon-user2"></i><strong>Create a free account to the community of helpers</strong>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
                                         <div class="styled-input-wrapper">
                                             <div class="input-icon">
                                                 <i class="icon-user3"></i>
@@ -108,7 +77,7 @@
                                             <div class="styled-input">
                                                 <div class="form-group">
                                                     <label for="userName">Enter Full Name</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="Name" name="name">
+                                                    <input type="text" class="form-control" id="userName" data-parsley-required="true" placeholder="Name" name="name">
                                                 </div>
                                             </div>
                                         </div>
@@ -119,7 +88,7 @@
                                             <div class="styled-input">
                                                 <div class="form-group">
                                                     <label for="userName">Phone Number</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="Phone" name="phone">
+                                                    <input type="text" data-parsley-minlength="11" data-parsley-type="number" class="form-control" id="userName" data-parsley-required="true" placeholder="Phone" name="phone">
                                                 </div>
                                             </div>
                                         </div>
@@ -142,7 +111,7 @@
                                             <div class="styled-input">
                                                 <div class="form-group">
                                                     <label for="userName">Enter Email</label>
-                                                    <input type="text" class="form-control" id="userName" placeholder="Email" name="email">
+                                                    <input type="text" data-parsley-type="email" data-parsley-required="true" class="form-control" id="userName" placeholder="Email" name="email">
                                                 </div>
                                             </div>
                                         </div>
@@ -153,7 +122,7 @@
                                             <div class="styled-input">
                                                 <div class="form-group">
                                                     <label for="userName">Password</label>
-                                                    <input type="password" class="form-control" id="userName" placeholder="************" name="password">
+                                                    <input type="password" data-parsley-required="true" data-parsley-minlength="8" class="form-control" id="password" placeholder="************" name="password">
                                                 </div>
                                             </div>
                                         </div>
@@ -164,60 +133,66 @@
                                             <div class="styled-input">
                                                 <div class="form-group">
                                                     <label for="userName">Confirm Password</label>
-                                                    <input type="password" class="form-control" id="userName" placeholder="************" name="confirmPass">
+                                                    <input type="password" data-parsley-required="true" data-parsley-equalto="#password" data-parsley-minlength="8" class="form-control" id="userName" placeholder="************" name="confirmPass">
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <h2>&nbsp;</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    {!! Recaptcha::render() !!}
+                                    <input type="hidden" value="{!! csrf_token() !!}" name="_token">
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <button class="btn btn-info btn-lg" type="submit" style="padding: 20px 16px;"><i class="icon-check_circle"></i>Create Account</buttom>
+                                    </div>
                                 </div>
                             </div>
-                                        
+                        </div>
+                    </form>
 
-                        </div>
-                        <div class="row">
-                            <h2>&nbsp;</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                {!! Recaptcha::render() !!}
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <button class="btn btn-info btn-lg" type="submit" style="padding: 20px 16px;"><i class="icon-check_circle"></i>Create Account</buttom>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    
                 </div>
             </div>
-        </div>
-        <footer>Copyright Arise Admin <span>2016</span></footer>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/sparkline/retina.js"></script>
-        <script src="js/sparkline/custom-sparkline.js"></script>
-        <script src="js/scrollup/jquery.scrollUp.js"></script>
-        <script src="js/d3/d3.v3.min.js"></script>
-        <script src="js/d3/d3.powergauge.js"></script>
-        <script src="js/d3/gauge.js"></script>
-        <script src="js/d3/gauge-custom.js"></script>
-        <script src="js/c3/c3.min.js"></script>
-        <script src="js/c3/c3.custom.js"></script>
-        <script src="js/nvd3/nv.d3.js"></script>
-        <script src="js/nvd3/nv.d3.custom.boxPlotChart.js"></script>
-        <script src="js/nvd3/nv.d3.custom.stackedAreaChart.js"></script>
-        <script src="js/horizontal-bar/horizBarChart.min.js"></script>
-        <script src="js/horizontal-bar/horizBarCustom.js"></script>
-        <script src="js/gaugemeter/gaugeMeter-2.0.0.min.js"></script>
-        <script src="js/gaugemeter/gaugemeter.custom.js"></script>
-        <script src="js/heatmap/cal-heatmap.min.js"></script>
-        <script src="js/heatmap/cal-heatmap.custom.js"></script>
-        <script src="js/odometer/odometer.min.js"></script>
-        <script src="js/odometer/custom-odometer.js"></script>
-        <script src="js/circliful/circliful.min.js"></script>
-        <script src="js/circliful/circliful.custom.js"></script>
-        <script src="js/peity/peity.min.js"></script>
-        <script src="js/peity/custom-peity.js"></script>
-        <script src="js/custom.js"></script>
-    </body>
-    </html>
+            <footer>Copyright &copy; <span>{!! date('Y') !!}</span> U-Share</footer>
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/sparkline/retina.js"></script>
+            <script src="js/sparkline/custom-sparkline.js"></script>
+            <script src="js/scrollup/jquery.scrollUp.js"></script>
+            <script src="js/d3/d3.v3.min.js"></script>
+            <script src="js/d3/d3.powergauge.js"></script>
+            <script src="js/d3/gauge.js"></script>
+            <script src="js/d3/gauge-custom.js"></script>
+            <script src="js/c3/c3.min.js"></script>
+            <script src="js/c3/c3.custom.js"></script>
+            <script src="js/nvd3/nv.d3.js"></script>
+            <script src="js/nvd3/nv.d3.custom.boxPlotChart.js"></script>
+            <script src="js/nvd3/nv.d3.custom.stackedAreaChart.js"></script>
+            <script src="js/horizontal-bar/horizBarChart.min.js"></script>
+            <script src="js/horizontal-bar/horizBarCustom.js"></script>
+            <script src="js/gaugemeter/gaugeMeter-2.0.0.min.js"></script>
+            <script src="js/gaugemeter/gaugemeter.custom.js"></script>
+            <script src="js/heatmap/cal-heatmap.min.js"></script>
+            <script src="js/heatmap/cal-heatmap.custom.js"></script>
+            <script src="js/odometer/odometer.min.js"></script>
+            <script src="js/odometer/custom-odometer.js"></script>
+            <script src="js/circliful/circliful.min.js"></script>
+            <script src="js/circliful/circliful.custom.js"></script>
+            <script src="js/peity/peity.min.js"></script>
+            <script src="js/peity/custom-peity.js"></script>
+
+            <script src="js/sweetalert.min.js"></script>
+            <script src="js/nprogress.js"></script>
+            <script src="js/parsley.min.js"></script>
+
+            <script src="js/custom.js"></script>
+            <script src="js/share.handler.js"></script>
+        </body>
+        </html>

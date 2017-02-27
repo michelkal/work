@@ -16,9 +16,9 @@ class Providehelps extends Migration
         Schema::create('providehelps', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id');
-            $table->string('amount');
-            $table->string('reference');
-            $table->string('currency_id');
+            $table->string('amount', 100);
+            $table->string('reference', 100);
+            $table->string('currency_id', 100);
             $table->integer('progress');
             $table->integer('match');
             $table->integer('match_with');
@@ -33,6 +33,6 @@ class Providehelps extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('providehelps')
+        Schema::dropIfExists('providehelps');
     }
 }

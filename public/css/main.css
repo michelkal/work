@@ -549,8 +549,8 @@ mark {
 }
 
 header {
-	height: 60px;
-	line-height: 60px;
+	height: 100px;
+	line-height: 100px;
 	padding: 0 15px 0 25px;
 	vertical-align: middle;
 	position: fixed;
@@ -586,7 +586,7 @@ header {
 }
 
 .logo img {
-	max-width: 90px;
+	/*max-width: 90px;*/
 	margin: 5px 0 0
 }
 
